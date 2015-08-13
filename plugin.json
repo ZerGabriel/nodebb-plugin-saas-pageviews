@@ -1,0 +1,9 @@
+{
+    "library": "./index.js",
+    "staticDirs": {
+
+    },
+    "hooks": [
+        { "hook": "static:app.load", "method": "init"}
+    ]
+}

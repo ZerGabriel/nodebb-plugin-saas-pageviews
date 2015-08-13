@@ -1,0 +1,27 @@
+{
+  "name": "nodebb-plugin-saas-pageviews",
+  "version": "1.0.0",
+  "description": "A Plugin that creates a route to read pageviews",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NodeBB/nodebb-plugin-saas-pageviews"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "saas",
+    "pageviews"
+  ],
+  "author": "Baris Usakli <baris@nodebb.org>",
+  "license": "MIT",
+  "dependencies": {
+
+  },
+  "nbbpm": {
+    "compatibility": "^0.7.0"
+  }
+}
