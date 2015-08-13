@@ -11,7 +11,7 @@ var db = module.parent.require('./database'),
 
 		params.router.get('/api/saas/pageviews', function(req, res, next) {
 			if (req.ip !== '10.0.3.1') {
-				res.json(403, 'not-allowed');
+				return res.json(403, 'not-allowed');
 			}
 			analytics.getMonthlyPageViews(function(err, stats) {
 				if (err) {
